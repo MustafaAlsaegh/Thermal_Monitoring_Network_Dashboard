@@ -1,0 +1,79 @@
+.tooltip-container {
+    font-family:Arial;
+    width: 550px;
+    min-height: 300px;
+    height: auto;
+    padding: 2px;
+    font-size: 15px;
+    background: white;
+    box-shadow: 0 30px 90px -20px rgba(0,0,0,0.3);
+    position: absolute;
+    z-index: 100;
+    display: none;
+    opacity: 0;
+    border:3px double darkblue;
+}
+
+/*.tooltip-container::after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #f0f0f0 transparent transparent transparent;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}*/
+
+.fade-in {
+    display: block;
+    animation: fade 0.2s linear forwards;
+}
+
+@keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.blue { background-color: darkslateblue; }
+.red { background-color: darkred; }
+
+.myTickClass {
+  /*font-family:Arial;
+  font-size:10px;
+  background-color:black;*/
+  /*height:300px;
+  text-align:center;*/
+}
+
+.ui-rangeSlider-label-value {
+  font-family:Arial;
+  font-size:10px;
+  font-weight:bold;
+}
+
+.ui-rangeSlider-container, .ui-ruler-tick-inner {
+  font-family:Arial;
+  font-size:10px;
+  background-color:black;
+}
+
+.ui-rangeSlider-bar {
+    background-color:lightgreen;
+    opacity: 0.8;
+    border-radius:0px;
+}
+
+.ui-rangeSlider-leftHandle {border-left: 3px double blue; opacity: 0.8;}
+.ui-rangeSlider-rightHandle {border-right: 3px double blue; opacity: 0.8;}
