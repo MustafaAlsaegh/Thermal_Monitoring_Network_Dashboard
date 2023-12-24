@@ -2,6 +2,7 @@
 ### Thermal Monitoring Network Data
 Data Science in Practice Fall 2023
 Project Sponsor: https://healthycities.sice.indiana.edu/
+![Screenshot 2023-12-23 190616](https://github.com/MustafaAlsaegh/Thermal_Monitoring_Network_Dashboard/assets/96810312/601a36aa-c4f5-4a71-88a8-6c490e8ac915)
 #### Overview
 
 This repository contains code and data for monitoring and analyzing Bloomington heat sensor data. We have developed an interactive dashboard using Flask to visualize and analyze the collected data. The backend fetches relevant data based on user requests, and the frontend utilizes Plotly to create interactive visualizations.
