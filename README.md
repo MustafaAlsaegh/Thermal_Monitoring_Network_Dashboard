@@ -30,7 +30,8 @@ This repository contains code and data for monitoring and analyzing Bloomington 
    - An interactive time series line graph is created to illustrate selected weather parameters over time.
    - Spatial visualizations show the distribution of weather parameters across sensor locations.
    - Boxplots are used to explain the variance of weather parameters.
-
+![Screenshot 2023-12-23 190525](https://github.com/MustafaAlsaegh/Thermal_Monitoring_Network_Dashboard/assets/96810312/953c61a0-4c81-4602-9d5c-abba0ae2e37e)
+![Screenshot 2023-12-23 190556](https://github.com/MustafaAlsaegh/Thermal_Monitoring_Network_Dashboard/assets/96810312/fef4142e-a76d-49ab-98ef-b32d0f801900)
 #### Usage
 
 1. Clone the repository:
@@ -77,10 +78,9 @@ The initial demonstration for sponsors includes:
 
 #### Contributors
 
-- [Your Name]
-- [Collaborator 1]
-- [Collaborator 2]
+- [Mustafa Alsaegh]
+- [Anand Kumar]
+- [Pranaykumar Pragdhare]
 
-Feel free to contribute to the project by forking the repository and submitting pull requests. If you have any questions or issues, please open an [issue](https://github.com/your-username/ThermalMonitoringNetwork_Data/issues).
 
-**Thank you for your interest in Thermal Monitoring Network Data!**
+**Thank you for checking our project!**
